@@ -49,6 +49,9 @@ namespace ProjectPenjualan
                         break;
 
                     default:
+                        Console.WriteLine("\nMaaf Pilihan Anda Tidak Ada");
+                        Console.WriteLine("\nTekan ENTER untuk kembali ke menu");
+                        Console.ReadKey();
                         break;
                 }
             }
